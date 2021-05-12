@@ -7,7 +7,7 @@ nav {
 	color: white;
 	display: inline-block;
 	text-align: center;
-	padding: 25px 131px;
+	padding: 25px 153px;
 	font-family: 'Open Sans', sans-serif;
     font-size: 20px
 }
@@ -19,6 +19,8 @@ nav {
 
 
 }
+
+
 h1 {
     display: block;
     font-size: 2em;
@@ -119,14 +121,22 @@ font-size: 140px;}
 }
 
 
-.logo{display: inline-block;
+.logo{display: inline-block
+    width: 23%;
+    padding: 1%;
  
 }
 
 footer {background-color: #2454A8;
+    ul.a {
+  list-style-type: circle;
+}
    
 display: inline-block;}
+
 .footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
     display: inline-block;
   position: fixed;
   left: 0;
@@ -135,11 +145,23 @@ display: inline-block;}
   height: 8%;
     background: linear-gradient(to right, #2454A8 0%, #F1BE48 100%);
   background-color: #2454A8;
-
-
-  color: white;
+ color: white;
   text-align: center;
+
 }
+ul{
+display: inline-block;
+text-align: center;
+}
+li{display: inline-block;
+     list-style: circle;
+    font size: 18px;
+    margin-block-start: 0.5em;
+      margin-block-end: 2em;
+       margin-inline-start: 50px;
+       margin-inline-end: 10px;
+        }
+
 
 .button1 {
   border: none;
@@ -152,23 +174,12 @@ display: inline-block;}
   margin: 4px 2px;
   cursor: pointer;
 }
-p {
+
+
+.p3 {
     display: inline-block;
-    font size: 20px;
-    margin-block-start: 2em;
-    margin-block-end: 2em;
-    margin-inline-start: 10px;
-    margin-inline-end: 10px;
+    text-align: left;
 }
 
-
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
+@media all and (min 1050px) and (max-width: 1680px)
+{body{ background-color: blue; }}
